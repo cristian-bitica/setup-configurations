@@ -1,0 +1,72 @@
+{
+    // General settings
+    "security.workspace.trust.untrustedFiles": "newWindow",
+    "window.commandCenter": false,
+    "files.exclude": {
+        ".git": true,
+        "**/.git": false
+    },
+    "extensions.autoUpdate": "onlyEnabledExtensions",
+    "telemetry.enableTelemetry": false,
+    "workbench.colorTheme": "Darcula",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.tree.indent": 22,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.tabSizing": "shrink",
+    "files.autoSave": "afterDelay",
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    "workbench.settings.editor": "json",
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.settings.useSplitJSON": true,
+    // Git settings
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "git.showActionButton": {
+        "commit": false,
+        "publish": false,
+        "sync": false
+    },
+    // Explorer settings
+    "explorer.excludeGitIgnore": false,
+    "explorer.autoReveal": true,
+    "editor.fontSize": 13,
+    "python.defaultInterpreterPath": "python",
+    "python.terminal.activateEnvironment": true,
+    "debug.console.fontSize": 13,
+    "terminal.integrated.fontSize": 13,
+    "python.analysis.autoFormatStrings": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "files.trimTrailingWhitespace": true,
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.explorerKind": "external",
+    "[python]": {
+        "editor.formatOnType": false,
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveMode": "file",
+        "editor.defaultFormatter": "ms-python.black-formatter",
+    },
+    "notebook.output.textLineLimit": 50,
+    "terminal.integrated.env.osx": {
+        "CW_NEW_SESSION": "1",
+        "Q_NEW_SESSION": "1"
+    },
+    "editor.accessibilitySupport": "off",
+    "workbench.editorAssociations": {
+        "*.py": "default"
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "files.watcherExclude": {
+        "**/.bloop": true,
+        "**/.metals": true,
+        "**/.ammonite": true
+    },
+    "python.createEnvironment.trigger": "prompt",
+    
+    "amazonQ.telemetry": false,
+    "python.analysis.extraPaths": [],
+}
