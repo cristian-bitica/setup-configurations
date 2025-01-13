@@ -1,13 +1,12 @@
 {
     // General settings
     "security.workspace.trust.untrustedFiles": "newWindow",
-    "window.commandCenter": false,
     "files.exclude": {
         ".git": true,
         "**/.git": false
     },
     "extensions.autoUpdate": "onlyEnabledExtensions",
-    "telemetry.enableTelemetry": false,
+    "telemetry.telemetryLevel": "off",
     "workbench.colorTheme": "Darcula",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.tree.indent": 22,
@@ -66,7 +65,7 @@
         "**/.ammonite": true
     },
     "python.createEnvironment.trigger": "prompt",
-    
+
     "amazonQ.telemetry": false,
     "python.analysis.extraPaths": [],
 }
